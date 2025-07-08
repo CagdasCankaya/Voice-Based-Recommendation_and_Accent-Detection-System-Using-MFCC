@@ -14,11 +14,16 @@ Matplotlib – Öznitelik görselleştirme
 Flask – Basit bir web arayüzü/API geliştirme
 
 # PROJE AŞAMALARI
-# 1- Veri Hazırlama: .tar arşivinden ses dosyaları çıkarılır. train.tsv dosyasından ses dosyası yolları ve etiketler (accent veya kategori) alınır.
-# 2 - Öznitelik Çıkarımı: Her ses dosyasından MFCC öznitelikleri çıkarılır. Zaman boyutundaki ortalaması alınarak sabit boyutlu vektör elde edilir. Örnekleme hızı (sample rate) olarak 44100 Hz kullanılır.
-# 3- Model Eğitimi: MFCC öznitelikleri ile etiketler eşleştirilir. RandomForestClassifier ile model eğitimi yapılır. Model doğruluğu: %82 (accuracy = 0.824)
-# 4- Ses Kaydı: Kullanıcıdan mikrofon aracılığıyla ses kaydı alınır. .wav formatında kaydedilir, analiz için hazır hale getirilir.
-# 5 - API Geliştirme: Flask ile temel bir web arayüzü sağlanır. İleride ses yollayıp sınıflandırma sonucunu almak için API genişletilebilir.
+# 1- Veri Hazırlama
+.tar arşivinden ses dosyaları çıkarılır. train.tsv dosyasından ses dosyası yolları ve etiketler (accent veya kategori) alınır.
+# 2 - Öznitelik Çıkarımı
+Her ses dosyasından MFCC öznitelikleri çıkarılır. Zaman boyutundaki ortalaması alınarak sabit boyutlu vektör elde edilir. Örnekleme hızı (sample rate) olarak 44100 Hz kullanılır.
+# 3- Model Eğitimi
+MFCC öznitelikleri ile etiketler eşleştirilir. RandomForestClassifier ile model eğitimi yapılır. Model doğruluğu: %82 (accuracy = 0.824)
+# 4- Ses Kaydı 
+Kullanıcıdan mikrofon aracılığıyla ses kaydı alınır. .wav formatında kaydedilir, analiz için hazır hale getirilir.
+# 5 - API Geliştirme
+Flask ile temel bir web arayüzü sağlanır. İleride ses yollayıp sınıflandırma sonucunu almak için API genişletilebilir.
 
 # Dosya Yapısı:
 ├── extracted_features.npy       # Kaydedilen MFCC vektörleri
