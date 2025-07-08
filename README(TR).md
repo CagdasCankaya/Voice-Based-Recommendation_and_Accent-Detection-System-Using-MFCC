@@ -1,6 +1,6 @@
-# Voice-Based-Recommendation_and_Accent-Detection-System-Using-MFCC
+# Ses Verisine Dayalı Lehçe Tanıma ve Öneri Sistemi: MFCC ve Web Tabanlı Makine Öğrenmesi Yaklaşımı
 
-Ses Verisine Dayalı Lehçe Tanıma ve Öneri Sistemi: MFCC ve Web Tabanlı Makine Öğrenmesi Yaklaşımı
+
 Bu projede, kullanıcıdan alınan ses kaydı üzerinden MFCC (Mel-Frequency Cepstral Coefficients) öznitelikleri çıkarılarak, kullanıcının olası beğeni veya ilgi alanlarının tahmin edilmesi hedeflenmiştir.
 Elde edilen özellikler makine öğrenmesi modeline verilerek öneri sistemi alt yapısı oluşturulmuştur. Aynı zamanda mikrofon ile ses kaydı alınabilmekte ve Flask ile temel bir API sağlanmaktadır.
 
