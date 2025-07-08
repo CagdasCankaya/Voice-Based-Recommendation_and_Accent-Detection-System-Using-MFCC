@@ -13,7 +13,7 @@ Sounddevice & Wavio – Recording audio via microphone
 Matplotlib – Visualizing feature distributions
 Flask – Building a lightweight web interface/API
 
-# Project Workflow
+# PROJECT WORKFLOW
 # 1. Data Preparation:
 Audio files are extracted from a .tar archive. File paths and labels (accents or categories) are read from the train.tsv file.
 
